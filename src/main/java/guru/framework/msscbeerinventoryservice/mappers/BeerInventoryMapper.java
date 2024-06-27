@@ -3,7 +3,7 @@ package guru.framework.msscbeerinventoryservice.mappers;
 import org.mapstruct.Mapper;
 
 import guru.framework.msscbeerinventoryservice.domain.BeerInventory;
-import guru.framework.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import guru.springframework.brewery.model.BeerInventoryDto;
 
 @Mapper(uses= {DateMapper.class})
 public interface BeerInventoryMapper {

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import guru.framework.msscbeerinventoryservice.mappers.BeerInventoryMapper;
 import guru.framework.msscbeerinventoryservice.repositories.BeerInventoryRepository;
-import guru.framework.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import guru.springframework.brewery.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
